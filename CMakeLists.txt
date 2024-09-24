@@ -3,7 +3,7 @@ project(Molecule_monster)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Molecule_monster main.cpp)
+add_executable(Molecule_monster src/main.cpp)
 
 set(SFML_STATIC_LIBRARIES TRUE)
 set(SFML_DIR C:/dev/DEVEL/SFML/lib/cmake/SFML)
